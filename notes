@@ -1,0 +1,21 @@
+# downloads the box
+vagrant box add ubuntu/xenial64
+
+
+# list boxes
+vagrant box list
+
+# list running box
+vagrant global-status
+
+# initialize
+vagrant init ubuntu/xenial64
+
+
+# go into box
+vagrant up
+vagrant ssh
+
+
+# reference
+https://www.thisprogrammingthing.com/2015/multiple-vagrant-vms-in-one-vagrantfile/
